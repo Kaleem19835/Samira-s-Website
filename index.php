@@ -152,7 +152,7 @@
 
 	</style>
   </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" id="body">
 
   <div id="overlayer"></div>
   <div class="loader">
@@ -203,7 +203,7 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-2">
-              <h1 class="my-0 site-logo"><a href="index.html">Samira</a></h1>
+              <h1 class="my-0 site-logo"><a href="index.php#body">Samira</a></h1>
             </div>
             <div class="col-10">
               <nav class="site-navigation text-right" role="navigation">
@@ -299,46 +299,49 @@
       </div>
     </section> <!-- .section -->
 
+    <section class="site-section" id="classes-section">
+
+
+     
     <section class="site-section" id="schedule-section">
-        <div class="container">
+        <div class="container" data-aos="fade-right" data-aos-delay="300" data-aos-duration="500">
           <div class="row mb-5">
-            <div class="col-md-7 text-left heading-wrap mb-5" data-aos="zoom-in-right">
+            <div class="col-md-7 text-left heading-wrap mb-5">
               <h2 class="mt-0">Classes</h2>
-              
             </div>
             
           </div>
         </div>
 
-        <div class="container-fluid">
+        <div class="container-fluid" data-aos="fade-right" data-aos-delay="800" data-aos-duration="500">
 
           <div class="row no-gutters">
             <div class="col-md-6">
-              <div class="sched d-block d-lg-flex" data-aos="fade-up" data-aos-delay="250">
-                <div class="bg-image order-2" style="background-image: url('images/images/464ce6_d222f639408c4930880882a3f3832ee4_mv2.jpg');"></div>
+              <div class="sched d-block d-lg-flex">
+                <div class="bg-image order-2" style="background-image: url('images/doyoga_img_1.jpg');"></div>
                 <div class="text order-1">
                   <h3>Yinyasa</h3>
-                  <p style="text-align: justify;">This class is a hybrid of yang (active yoga) with yin (passive yoga). We will begin with 30 minutes of gentle yoga to build strength, warmth and flow with fundamental yoga postures while relieving stress and tension by connecting breath with mindful movements.</p>
+                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts...</p>
                   <p class="sched-time">
                     <span><span class="fa fa-clock-o"></span> 5:30 PM</span> <br>
-                    <span><span class="fa fa-calendar"></span> February 22, 2020</span> <br>
+                    <span><span class="fa fa-calendar"></span> April 22, 2019</span> <br>
                   </p>
-                  <p class="btn btn-primary btn-sm" style="background-color: rgba(0, 177, 106, 1); border-color: rgba(0, 177, 106, 1)">Join for £15</p>
+                  <p><a class="btn btn-primary btn-sm" style="background-color: rgba(0, 177, 106, 1) !important; border-color: rgba(0, 177, 106, 1) !important; color: white;">Join from $15</a></p>
                   
                 </div>
                 
               </div>
 
-              <div class="sched d-block d-lg-flex" data-aos="fade-up" data-aos-delay="300">
-                <div class="bg-image" style="background-image: url('images/images/hjorthmedh-viva-vinyasa-6.jpg');"></div>
+              <div class="sched d-block d-lg-flex">
+                <div class="bg-image" style="background-image: url('images/doyoga_img_2.jpg');"></div>
                 <div class="text">
                   <h3>Chandra Vinyasa</h3>
-                  <p style="text-align: justify;">The focus is inherently part of the process by following carefully the rhythm of inhale and exhale during the sequence of poses, breath is thus a sort of “harness” which links the mind to the body.</p>
+                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts...</p>
                   <p class="sched-time">
-                    <span><span class="fa fa-clock-o"></span> 4:30 PM</span> <br>
-                    <span><span class="fa fa-calendar"></span> February 29, 2020</span> <br>
+                    <span><span class="fa fa-clock-o"></span> 5:30 PM</span> <br>
+                    <span><span class="fa fa-calendar"></span> April 22, 2019</span> <br>
                   </p>
-                  <p class="btn btn-primary btn-sm" style="background-color: rgba(0, 177, 106, 1); border-color: rgba(0, 177, 106, 1)">Join for £10</p>
+                  <p><a class="btn btn-primary btn-sm" style="background-color: rgba(0, 177, 106, 1) !important; border-color: rgba(0, 177, 106, 1) !important; color: white;">Join from $15</a></p>
                   
                 </div>
                 
@@ -347,31 +350,31 @@
             </div>
 
             <div class="col-md-6">
-              <div class="sched d-block d-lg-flex" data-aos="fade-up" data-aos-delay="350">
-                <div class="bg-image order-2" style="background-image: url('images/images/maxresdefault.jpg');"></div>
+              <div class="sched d-block d-lg-flex">
+                <div class="bg-image order-2" style="background-image: url('images/doyoga_img_3.jpg');"></div>
                 <div class="text order-1">
                   <h3>Surya Vinyasa</h3>
-                  <p style="text-align: justify;">Surya Namaskara embodies completely the very essence of what we seek to achieve through the practice of yoga because it initiates and cultivates the internal journey towards our ‘Inner Sun’. As such it is a complete practice in itself and could alone be used by the practitioner of yoga to master the art of asana.</p>
+                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts...</p>
                   <p class="sched-time">
-                    <span><span class="fa fa-clock-o"></span> 6:30 PM</span> <br>
-                    <span><span class="fa fa-calendar"></span> March 1, 2020</span> <br>
+                    <span><span class="fa fa-clock-o"></span> 5:30 PM</span> <br>
+                    <span><span class="fa fa-calendar"></span> April 22, 2019</span> <br>
                   </p>
-                  <p class="btn btn-primary btn-sm" style="background-color: rgba(0, 177, 106, 1); border-color: rgba(0, 177, 106, 1)">Join from £20</p>
+                  <p><a class="btn btn-primary btn-sm" style="background-color: rgba(0, 177, 106, 1) !important; border-color: rgba(0, 177, 106, 1) !important; color: white;">Join from $15</a></p>
                   
                 </div>
                 
               </div>
 
-              <div class="sched d-block d-lg-flex" data-aos="fade-up" data-aos-delay="300">
-                <div class="bg-image" style="background-image: url('images/images/511c05dc950362c8e3f9c906080280d1-rimg-w720-h479-gmir.jpg');"></div>
+              <div class="sched d-block d-lg-flex">
+                <div class="bg-image" style="background-image: url('images/doyoga_img_1.jpg');"></div>
                 <div class="text">
                   <h3>Ashtanga Foundations</h3>
-                  <p style="text-align: justify;">Yoga’s benefits affect each person in a different way. Many find that it helps them to relax; others find themselves feeling healthier and more energetic. All the systems in the body-from the lymphatic to the digestive to the cardiovascular-benefit from yoga. Yoga benefits every aspect of our bodies, inside and out..</p>
+                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts...</p>
                   <p class="sched-time">
-                    <span><span class="fa fa-clock-o"></span> 8:00 PM</span> <br>
-                    <span><span class="fa fa-calendar"></span> June 25, 2020</span> <br>
+                    <span><span class="fa fa-clock-o"></span> 5:30 PM</span> <br>
+                    <span><span class="fa fa-calendar"></span> April 22, 2019</span> <br>
                   </p>
-                  <p class="btn btn-primary btn-sm" style="background-color: rgba(0, 177, 106, 1); border-color: rgba(0, 177, 106, 1)">Join from £30</p>
+                  <p><a class="btn btn-primary btn-sm" style="background-color: rgba(0, 177, 106, 1) !important; border-color: rgba(0, 177, 106, 1) !important; color: white;">Join from $15</a></p>
                   
                 </div>
                 
@@ -410,14 +413,14 @@
         <div class="row">
           <div class="col-md-6 mb-5" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1300">
 
-            <img src="images/images/vv29g5pqjwfnaf9et8i6.webp" class="img-fluid mb-4">
+            <img src="images/images/napoleon.jpg" class="img-fluid mb-4">
 
             <h3>Napoleon Dynamite</h3>
 			<p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien eget mi proin sed libero. Aenean et tortor at risus. Egestas integer eget aliquet nibh praesent tristique magna. Duis ultricies lacus sed turpis tincidunt id aliquet risus feugiat. Varius sit amet mattis vulputate.</p>
           </div>
 
           <div class="col-md-6 mb-5" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1300">
-            <img src="images/images/80847712_1519462431525239_2961167457085030400_n.jpg"class="img-fluid mb-4">
+            <img src="images/images/nikolay.jpg"class="img-fluid mb-4">
 
             <h3>Nikolay Ninov</h3>
 			<p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien eget mi proin sed libero. Aenean et tortor at risus. Egestas integer eget aliquet nibh praesent tristique magna. Duis ultricies lacus sed turpis tincidunt id aliquet risus feugiat. Varius sit amet mattis vulputate.</p>
@@ -492,22 +495,22 @@
 
         <div id="posts" class="row no-gutter">
           <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/images/plank.png" class="item-wrap fancybox">
+            <a href="images/yoga 1.jpg" class="item-wrap fancybox">
               <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/images/plank.png">
+              <img class="img-fluid" src="images/yoga 1.jpg">
             </a>
           </div>
           <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/images/yoga.jpg" class="item-wrap fancybox">
+            <a href="images/yoga 2.jpg" class="item-wrap fancybox">
               <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/images/yoga.jpg">
+              <img class="img-fluid" src="images/yoga 2.jpg">
             </a>
           </div>
 
           <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/images/42b71de13e424c169b6cc375d63b45dc.png" class="item-wrap fancybox">
+            <a href="images/yoga 3.jpg" class="item-wrap fancybox">
               <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/images/42b71de13e424c169b6cc375d63b45dc.png">
+              <img class="img-fluid" src="images/yoga 3.jpg">
             </a>
           </div>
 
@@ -521,16 +524,16 @@
           </div>
 
           <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/doyoga_about_2.jpg" class="item-wrap fancybox">
+            <a href="images/yoga 5.jpg" class="item-wrap fancybox">
               <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/doyoga_about_2.jpg">
+              <img class="img-fluid" src="images/yoga 5.jpg">
             </a>
           </div>
 
           <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/doyoga_about_3.jpg" class="item-wrap fancybox">
+            <a href="images/yoga 6.jpg" class="item-wrap fancybox">
               <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/doyoga_about_3.jpg">
+              <img class="img-fluid" src="images/yoga 6.jpg">
             </a>
           </div>
 
